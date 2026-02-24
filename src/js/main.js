@@ -46,22 +46,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Data and Rendering for Publications ---
     const publications = [
         {
-            title: "Secure RISC-V Processor Design Against Side-Channel Attacks Using Dynamic Randomization",
-            authors: "Sahil Maurya, Rakesh Kumar Singh, Bikram Paul",
-            venue: "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
-            year: "2024",
+            title: "Approximate Modular Multipliers for R-LWE Cryptosystems on FPGAs and ASICs",
+            authors: "A²DSL Researchers",
+            venue: "IEEE Xplore",
+            year: "2025",
             type: "Journal",
             featured: true,
-            pdfUrl: "#publications", // Placeholder if no actual URL
-            ieeeUrl: "#publications", // Placeholder if no actual URL
+            pdfUrl: "",
+            ieeeUrl: "https://ieeexplore.ieee.org/document/10910421",
             doiUrl: "",
             codeUrl: ""
         },
         {
-            title: "Lightweight Post-Quantum Cryptographic Accelerator for Resource-Constrained IoT Devices",
-            authors: "Rakesh Kumar Singh, Deepika Gautam, Bikram Paul",
-            venue: "IEEE International Conference on VLSI Design (VLSID)",
-            year: "2023",
+            title: "QIEDP: A Quantum-Inspired Two-Bit Error Correction Protocol for Low-Power Serial Communication in IoT Systems",
+            authors: "A²DSL Researchers",
+            venue: "IEEE HiPC",
+            year: "2025",
             type: "Conference",
             featured: false,
             pdfUrl: "",
@@ -70,26 +70,26 @@ document.addEventListener('DOMContentLoaded', () => {
             codeUrl: ""
         },
         {
-            title: "Memory Management Systems for AI-Powered Autonomous Vehicles: Hardware-Software Co-Design",
-            authors: "Deepika Gautam, Sourav Thakur, Bikram Paul",
-            venue: "Journal of Systems Architecture",
-            year: "2023",
-            type: "Journal",
+            title: "Neuromorphic Adaptive Precision RISC-V Processor with Real-Time Precision Scaling and Neuronal State Management",
+            authors: "A²DSL Researchers",
+            venue: "IEEE RISCV-HPC",
+            year: "2025",
+            type: "Conference",
             featured: false,
-            pdfUrl: "#publications",
-            ieeeUrl: "",
-            doiUrl: "#publications",
+            pdfUrl: "",
+            ieeeUrl: "#publications",
+            doiUrl: "",
             codeUrl: ""
         },
         {
-            title: "System and Method for Hardware-Enforced Secure Boot in RISC-V Based SoCs",
-            authors: "Bikram Paul, Sahil Maurya, IIT Mandi",
-            venue: "Indian Patent Application No. 2022110XXXXX",
-            year: "2022",
-            type: "Patent",
+            title: "A Two-Bit Error Correction Protocol for Low-Power Serial Communication in IoT Systems",
+            authors: "A²DSL Researchers",
+            venue: "IEEE VLSID",
+            year: "2025",
+            type: "Conference",
             featured: false,
             pdfUrl: "",
-            ieeeUrl: "",
+            ieeeUrl: "#publications",
             doiUrl: "",
             codeUrl: ""
         }
