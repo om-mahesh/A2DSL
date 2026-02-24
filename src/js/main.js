@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
             gridHtml += `
         <div class="group animate-on-scroll" style="transition-delay: ${index * 100}ms;">
             <div class="aspect-square relative overflow-hidden bg-gray-100 mb-4 premium-card p-1 flex items-center justify-center border border-border">
-                <img src="${imgSrc}" alt="${member.name}" class="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-700" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'black\\' stroke-width=\\'1\\' stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\'><path d=\\'M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\\'></path><circle cx=\\'12\\' cy=\\'7\\' r=\\'4\\'></circle></svg>'; this.classList.remove('object-cover'); this.classList.add('p-8', 'w-1/2', 'h-1/2', 'mx-auto', 'my-auto');">
+                <img src="${imgSrc}" alt="${member.name}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" onerror="this.src='data:image/svg+xml;utf8,<svg xmlns=\\'http://www.w3.org/2000/svg\\' viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'black\\' stroke-width=\\'1\\' stroke-linecap=\\'round\\' stroke-linejoin=\\'round\\'><path d=\\'M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2\\'></path><circle cx=\\'12\\' cy=\\'7\\' r=\\'4\\'></circle></svg>'; this.classList.remove('object-cover'); this.classList.add('p-8', 'w-1/2', 'h-1/2', 'mx-auto', 'my-auto');">
                 <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                     <div class="flex gap-3">
                         ${socialLinks}
@@ -329,7 +329,7 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `
                 <div class="w-full flex-shrink-0 lg:w-1/2 p-2 slide">
                     <div class="aspect-[4/3] bg-gray-100 overflow-hidden relative cursor-zoom-in modal-trigger premium-card p-1" data-caption="${caption}">
-                        <img src="${src}" alt="${caption}" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700">
+                        <img src="${src}" alt="${caption}" class="w-full h-full object-cover transition-all duration-700">
                         <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
                             <i class="fas fa-expand text-white text-3xl"></i>
                         </div>
