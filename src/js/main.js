@@ -92,6 +92,66 @@ document.addEventListener('DOMContentLoaded', () => {
             ieeeUrl: "#publications",
             doiUrl: "",
             codeUrl: ""
+        },
+        {
+            title: "Bayesian Memory Dependence Prediction and Confidence-Guided Speculative Load Scheduling in Out-of-Order Processors",
+            authors: "A²DSL Researchers",
+            venue: "Status: Prior-Art / Patentability Search Report under processing",
+            year: "2026",
+            type: "Patent",
+            featured: false,
+            pdfUrl: "",
+            ieeeUrl: "",
+            doiUrl: "",
+            codeUrl: ""
+        },
+        {
+            title: "Quantum-Inspired Error Detection Protocol (QIEDP): A Novel Two-Bit Error Correction Method for Low-Power Serial Communication in IoT Systems",
+            authors: "A²DSL Researchers",
+            venue: "Status: Applied, published, response filed",
+            year: "2025",
+            type: "Patent",
+            featured: false,
+            pdfUrl: "",
+            ieeeUrl: "",
+            doiUrl: "",
+            codeUrl: ""
+        },
+        {
+            title: "Hardware-Based Execution Time Signatures (ETS) for Real-Time Detection of Timing Attacks in Embedded RISC-V Systems",
+            authors: "A²DSL Researchers",
+            venue: "Status: Patent applied",
+            year: "2026",
+            type: "Patent",
+            featured: false,
+            pdfUrl: "",
+            ieeeUrl: "",
+            doiUrl: "",
+            codeUrl: ""
+        },
+        {
+            title: "Neuromorphic Adaptive Precision RISC-V Processor with Neuronal State Management",
+            authors: "A²DSL Researchers",
+            venue: "Status: Invention disclosure submitted; applied for patent",
+            year: "2026",
+            type: "Patent",
+            featured: false,
+            pdfUrl: "",
+            ieeeUrl: "",
+            doiUrl: "",
+            codeUrl: ""
+        },
+        {
+            title: "Bio-Inspired Adaptive Dynamic Precision Scaling System for IEEE 754 Floating-Point Units",
+            authors: "A²DSL Researchers",
+            venue: "Status: Applied and published",
+            year: "2025",
+            type: "Patent",
+            featured: false,
+            pdfUrl: "",
+            ieeeUrl: "",
+            doiUrl: "",
+            codeUrl: ""
         }
     ];
 
